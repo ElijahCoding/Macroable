@@ -1,0 +1,10 @@
+{
+    "name": "elijah/macro",
+    "authors": [
+        {
+            "name": "Elijah",
+            "email": "elijahsharper1@gmail.com"
+        }
+    ],
+    "require": {}
+}
