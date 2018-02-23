@@ -1,10 +1,10 @@
 {
-    "name": "elijah/macro",
-    "authors": [
-        {
-            "name": "Elijah",
-            "email": "elijahsharper1@gmail.com"
-        }
-    ],
-    "require": {}
+  "autoload": {
+    "psr-4": {
+      "App\\": "app"
+    }
+  },
+  "require": {
+    "symfony/var-dumper": "^4.0"
+  }
 }
