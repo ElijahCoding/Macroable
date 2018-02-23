@@ -4,10 +4,15 @@ namespace App\Macros;
 
 class GetMethod
 {
-  public function getMethod()
+  // public function getMethod()
+  // {
+  //   return function() {
+  //     return 'works';
+  //   };
+  // }
+
+  public function __invoke($a)
   {
-    return function() {
-      return 'works';
-    };
+    return $a;
   }
 }

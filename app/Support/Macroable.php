@@ -35,5 +35,7 @@ trait Macroable
     if ($macro instanceof Closure) {
       return call_user_func_array($macro->bindTo($this, static::class), $parameters);
     }
+
+    return call_user_func_array($macro, $parameters);
   }
 }

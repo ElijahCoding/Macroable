@@ -9,8 +9,8 @@ require_once 'vendor/autoload.php';
 //   return $this->method;
 // });
 
-Request::mixin(new GetMethod());
+Request::macro('getMethod', new GetMethod());
 
 $request = new Request();
 
-dump($request->getMethod());
+dump($request->getMethod('a'));
